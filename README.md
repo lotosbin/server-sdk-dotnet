@@ -3,6 +3,12 @@ server-sdk-dotnet master v2.0
 
 Rong Cloud Server SDK in .NET.
 
+## Usage
+```
+install-package RongCloudServerSDK
+```
+
+## Change Log
 2015-06-26
 更新记录：
 1、修改 post 请求方式，能够正常抛出请求异常；
