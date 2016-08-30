@@ -12,8 +12,8 @@ namespace RongSDKDemo
         static void Main(string[] args)
         {
             String retstr = null;
-            String appKey = "uwd1c0sxdlx91";
-            String appSecret = "hhetmryhVm";
+            String appKey = "8luwapkvu3bbl";
+            String appSecret = "PXNqgguYBjxJ";
             retstr = RongCloudServer.GetToken(appKey, appSecret, "232424", "xugang", "http://www.qqw21.com/article/UploadPic/2012-11/201211259378560.jpg");
             Console.WriteLine("getToken: " + retstr);
             Console.ReadKey();
